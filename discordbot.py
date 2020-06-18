@@ -1,6 +1,6 @@
 const Discord = require("discord.js-commando"); #requires discord
 const bot = new Discord.Client(); #instantiation of client.
-const token = 'NjkxMjUyNjA3NTYxMjM2NDky.XndVog.wEOg_BZ6-6jENFt0oQbKSaxIaKE';
+#const token = 'REDACTED'; #Discord automatically changed the token because it shouldn't have been uploaded, lesson learned.
 
 bot.on('ready', () =>{
     console.log('BOT BOOTED SUCCESSFULLY') #Console output to prove bot is online.
